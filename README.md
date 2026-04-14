@@ -1,6 +1,6 @@
 # Boreal Sentinel
 
-This is an experimental space for a pet project developed during my studies at //kood.ee.
+This is an experimental space for a pet project developed during my studies at //kood.ee
 
 I like to toy around with satellite data, so this project will eventually turn into a simple
 wildfire detection app for southern Estonia — maybe Latvia as well.
