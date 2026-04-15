@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Raw data
+data/raw
+data/**/*.tif
+data/**/*.tiff
+data/**/*.zip
+data/**/*.nc
+data/**/*.hdf
+data/**/*.csv
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Secrets
+*.key
+*.secret
