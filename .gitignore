@@ -33,3 +33,6 @@ data/**/*.csv
 # Secrets
 *.key
 *.secret
+
+# keys
+.env/
