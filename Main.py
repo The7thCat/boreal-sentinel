@@ -1,8 +1,8 @@
 from config.synop_parser import fetch_synop, decode_synop
-from weatherstations import stations
+from config.settings import SYNOP_STATIONS
 
 # fetch synop from weatherstations
-for sid in stations:
+for sid in SYNOP_STATIONS:
     synop = fetch_synop(sid)
     if synop:
         print(sid, decode_synop(synop))

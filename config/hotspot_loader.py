@@ -1,6 +1,6 @@
 import os
 from logging import Filter
-from region import BBOX
+from config.settings import BBOX
 from dotenv import load_dotenv
 import requests
 import pandas as pd

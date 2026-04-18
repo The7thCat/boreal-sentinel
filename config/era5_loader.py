@@ -1,5 +1,5 @@
 import cdsapi
-from region import BBOX
+from config.settings import BBOX
 
 c = cdsapi.Client()
 
